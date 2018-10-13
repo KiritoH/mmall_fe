@@ -1,0 +1,25 @@
+{
+  "name": "mmall_fe",
+  "version": "1.0.0",
+  "description": "mmall前端代码",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KiritoH/mmall_fe.git"
+  },
+  "author": "Yww",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KiritoH/mmall_fe/issues"
+  },
+  "homepage": "https://github.com/KiritoH/mmall_fe#readme",
+  "devDependencies": {
+    "webpack": "^1.15.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
