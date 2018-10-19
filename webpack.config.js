@@ -30,7 +30,10 @@ var config = {
 	},
 	module: {
 		loaders: [
-			{ test: /\.css$/, loader: ExtractTestPlugin.extract("style-loader","css-loader") }
+			{ test: /\.css$/, loader: ExtractTestPlugin.extract("style-loader","css-loader") },
+			/*对于图片和字体文件的处理*/
+			{ test: /\.(gif|png|jpg|woff|svg|eot|ttf)\??.*$/, loader: 'url-loader?limit=100&name=resource/[name].[ext]'}
+
 		]
 	},
 	plugins : [
