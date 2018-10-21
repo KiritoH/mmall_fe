@@ -4,7 +4,11 @@
   "description": "mmall前端代码",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev"         : "WEBPACK_ENV=dev webpack-dev-server --inline  --port 8088",
+    "dev_win"     : "set WEBPACK_ENV=dev && webpack-dev-server --inline  --port 8088",
+    "dist"        : "WEBPACK_ENV=dev webpack -p",
+    "dist_win"    : "WEBPACK_ENV=dev webpack -p"
+    
   },
   "repository": {
     "type": "git",
